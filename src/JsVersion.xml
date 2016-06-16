@@ -1,0 +1,13 @@
+<profile>
+  <name>All Rules Profile</name>
+  <language>web</language>
+  <rules>
+   
+    <rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>ScriptVersionCheck</key>
+      <Severity>2</Severity>
+    </rule> 
+  </rules>
+
+</profile>

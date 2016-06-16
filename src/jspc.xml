@@ -1,0 +1,22 @@
+<profile>
+  <name>All Rules Profile</name>
+  <language>web</language>
+  <rules>
+   
+     
+    <rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>JspCompilerCheck</key>
+      <parameters>
+        <parameter>
+          <key>JspcOutputDir</key>
+          <value>/Users/xiehuiqiang/Downloads/baidu-mywork/temp/</value>
+        </parameter>
+        
+      </parameters>
+      
+    </rule>
+     
+  </rules>
+
+</profile>

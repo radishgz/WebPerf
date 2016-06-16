@@ -1,0 +1,53 @@
+<profile>
+  <name>All Rules Profile</name>
+  <language>web</language>
+  <rules>
+   
+    <rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>CssCheck</key>
+      <Severity>2</Severity>
+    </rule>
+    <rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>ScriptCheck</key>
+      <priority>MAJOR</priority>
+      <Severity>2</Severity>
+    </rule>
+    <rule>
+      <repositoryKey>Web</repositoryKey>
+      <Severity>2</Severity>
+      
+      <key>JspCompilerCheck</key>
+      <parameters>
+        <parameter>
+          <key>JspcOutputDir</key>
+          <value>d:\temp</value>
+        </parameter>
+        
+      </parameters>
+      
+    </rule>
+    
+    <rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>ImgCheck</key>
+      <Severity>2</Severity>
+    </rule>
+     <rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>LongJavaScriptCheck</key>
+      <parameters>
+        <parameter>
+          <key>maxLines</key>
+          <value>15</value>
+        </parameter>
+        <parameter>
+          <key>maxLength</key>
+          <value>300</value>
+        </parameter>
+      </parameters>
+    </rule>
+  </rules>
+
+</profile>

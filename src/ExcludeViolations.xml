@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GBK" ?>
+<EXCELUDE_VIOLATIONS>
+	<VIOLATION>
+		<SOURCE>([\w\W]*)</SOURCE>
+		<RULE>LongJavaScriptCheck</RULE>
+		<SUBRULE>([\w\W]*)</SUBRULE>
+		<START_LINE>([\w\W]*)</START_LINE>
+		<NODE_TEXT>([\w\W]*)</NODE_TEXT>
+	</VIOLATION>
+
+	<VIOLATION>
+		<SOURCE>([\w\W]*)</SOURCE>
+		<RULE>UnclosedTagCheck</RULE>
+		<SUBRULE>([\w\W]*)</SUBRULE>
+		<START_LINE>([\w\W]*)</START_LINE>
+		<NODE_TEXT>&lt;head&gt;</NODE_TEXT>
+	</VIOLATION>
+
+<VIOLATION>
+		<SOURCE>([\w\W]*)</SOURCE>
+		<RULE>ScriptCheck</RULE>
+		<SUBRULE>INTERNAL_SCRIPT</SUBRULE>
+		<START_LINE>([\w\W]*)</START_LINE>
+		<NODE_TEXT>([\w\W]*)</NODE_TEXT>
+	</VIOLATION>
+
+
+</EXCELUDE_VIOLATIONS>

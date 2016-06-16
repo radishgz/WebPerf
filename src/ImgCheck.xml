@@ -1,0 +1,20 @@
+<profile>
+  <name>All Rules Profile</name>
+  <language>web</language>
+  <rules>
+<rule>
+      <repositoryKey>Web</repositoryKey>
+      <key>CssCheck</key>
+      <Severity>2</Severity>
+       <parameters>
+        <parameter>
+          <key>ExcludeFiles</key>
+          <value>+,?action</value>
+        </parameter>
+        
+      </parameters>
+    </rule>
+    
+  </rules>
+
+</profile>

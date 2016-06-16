@@ -1,0 +1,20 @@
+<p>
+Heading tags are used by search engines and screen reader softwares to construct an outline of the page.
+Starting at <code>&lt;h1&gt;</code> and not skipping any level eases this automatic construction.
+</p>
+
+<p>The following code:</p>
+
+<pre>
+&lt;h2&gt;My Title&lt;/h2&gt;     &lt;!-- Non-Compliant - h1 is not being used --&gt;
+
+&lt;h3&gt;My Sub Title&lt;/h3&gt; &lt;!-- Compliant --&gt;
+</pre>
+
+<p>should be refactored into:</p>
+
+<pre>
+&lt;h1&gt;My Title&lt;/h1&gt;     &lt;!-- Compliant --&gt;
+
+&lt;h2&gt;My Sub Title&lt;/h2&gt; &lt;!-- Compliant --&gt;
+</pre>

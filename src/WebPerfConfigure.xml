@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GBK" ?>
+<!-- WebPerf配置XML，必须放在CLASSPATH 下  -->
+<Configure>
+		<!--  结果输出目录(必须以\(WINDOWS)或者/(UNIX)结束 -->
+		<!--  ([\w\W]*) 代表任意字符 -->
+		<OutPutDir>/Users/xiehuiqiang/Downloads/baidu-mywork/</OutPutDir>        
+		<ExcludeViolations>EmptyExcludeViolations.xml</ExcludeViolations> 
+		<CheckRule>jspc.xml</CheckRule>
+        <ExcludeDir>([\w\W]*).svn([\w\W]*)</ExcludeDir>
+        <ExcludeDir>([\w\W]*)web-inf([\w\W]*)</ExcludeDir>       
+        <ExcludeDir>([\w\W]*)meta-inf([\w\W]*)</ExcludeDir>       
+        <ExcludeDir>([\w\W]*)WEB-INF([\w\W]*)</ExcludeDir>       
+        <ExcludeDir>([\w\W]*)META-INF([\w\W]*)</ExcludeDir>    
+        <ExcludeFile>([\w\W]*)example.jsp</ExcludeFile>
+        <ExcludeFile>([\w\W]*).bak</ExcludeFile>   
+             
+</Configure>
